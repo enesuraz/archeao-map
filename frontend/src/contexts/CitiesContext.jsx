@@ -13,6 +13,8 @@ const initialState = {
   error: "",
 };
 
+/* const URL = "http://localhost:8080" */
+
 function reducer(state, action) {
   switch (action.type) {
     case "loading":
