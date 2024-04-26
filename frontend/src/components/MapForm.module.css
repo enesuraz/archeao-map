@@ -1,0 +1,53 @@
+.form {
+  margin-top: 2.4rem;
+  width: 100%;
+  box-shadow: 0 0 4.8rem rgba(0, 0, 0, 0.1);
+  padding: 2.4rem;
+}
+
+.form div {
+  position: relative;
+}
+
+.form div:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.form label {
+  text-transform: capitalize;
+}
+
+.map-form-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  border: 1px solid #242721;
+  background: none;
+  padding: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.form textarea {
+  resize: none;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+}
+
+.map-form-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.city-flag {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+}

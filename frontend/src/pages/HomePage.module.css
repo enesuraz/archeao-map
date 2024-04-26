@@ -1,0 +1,16 @@
+.hero {
+  height: calc(100vh - 7rem);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.hero-details {
+  width: 80%;
+}
+
+.hero-image {
+  width: 70%;
+  transform: skewY(7deg);
+}

@@ -1,0 +1,23 @@
+.btn--filled {
+  font-size: 1.6rem;
+  background-color: #242721 !important;
+  color: #92d3d8;
+}
+
+.btn--outlined {
+  font-size: 1.6rem;
+  border: 2px solid #242721 !important;
+}
+
+.btn--map {
+  font-weight: 700;
+  position: absolute;
+  z-index: 1000;
+  font-size: 1.4rem;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #242721 !important;
+  color: #fff;
+  box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}

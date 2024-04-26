@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "siteName": "Machu Picchu",
+      "country": "Peru",
+      "emoji": "🇵🇪",
+      "date": "1911-07-24T15:59:59.138Z",
+      "notes": "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru. It is renowned for its stunning panoramic views and intricate stone structures, including temples, palaces, and terraces. Machu Picchu is one of the most iconic archaeological sites in the world.",
+      "position": {
+        "lat": 13.1631,
+        "lng": 72.545
+      },
+      "id": "73930385"
+    },
+    {
+      "siteName": "Valley of the Kings",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "1922-11-26T08:22:53.976Z",
+      "notes": "The Valley of the Kings, located on the west bank of the Nile near Luxor, is home to the tombs of many pharaohs and nobles of the New Kingdom period. These elaborately decorated tombs hold a wealth of artifacts and hieroglyphic inscriptions.",
+      "position": {
+        "lat": 25.7402,
+        "lng": 32.6019
+      },
+      "id": "17806751"
+    },
+    {
+      "siteName": "Mohenjo Daro",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "notes": "Mohenjo-daro, meaning \"Mound of the Dead,\" was one of the largest and most advanced cities of the ancient Indus Valley Civilization. Located in present-day Sindh, Pakistan, Mohenjo-daro flourished approximately 4,500 years ago, during the Bronze Age.",
+      "date": "1920-04-10T11:04:56.000Z",
+      "position": {
+        "lat": "27.318094530276987",
+        "lng": "68.13240051269533"
+      },
+      "id": "a13tnHi"
+    }
+  ]
+}

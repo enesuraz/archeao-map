@@ -1,0 +1,69 @@
+@import "https://unpkg.com/leaflet@1.9.3/dist/leaflet.css";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+
+  height: 100vh;
+  background-color: #f3e8d8;
+  color: #242721;
+}
+
+/* ************** */
+/* TITLES */
+/* ************** */
+
+a:visited,
+a:link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+}
+
+.mb-small {
+  margin-bottom: 1.6rem;
+}
+
+.mb-large {
+  margin-bottom: 3.6rem;
+}
+
+.mt-medium {
+  margin-top: 2.4rem;
+}
+
+.primary-title {
+  font-size: 4.8rem;
+  letter-spacing: -1px;
+  line-height: 1.025;
+}
+
+.paragraph {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  background-color: #92d3d8;
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn--form {
+  font-size: 2rem;
+}

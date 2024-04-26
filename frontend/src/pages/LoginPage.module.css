@@ -1,0 +1,40 @@
+.form-container {
+  height: calc(100vh - 7rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  box-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.1);
+  padding: 2.4rem;
+  border-radius: 7px;
+}
+
+.form-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.form-input {
+  width: 100%;
+  padding: 4px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #242721;
+}
+
+.form-input:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.form-input::-webkit-input-placeholder {
+  color: #a7a7a7;
+}
+
+.form-input:focus {
+  outline: none;
+}

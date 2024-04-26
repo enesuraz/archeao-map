@@ -1,0 +1,6 @@
+.map-page {
+  height: 100vh;
+  display: flex;
+  overscroll-behavior-y: none;
+  position: relative;
+}

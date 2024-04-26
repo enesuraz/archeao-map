@@ -1,0 +1,9 @@
+.map-page-container {
+  flex-basis: 56rem;
+  background-color: #92d3d8;
+  padding: 3.2rem;
+}
+
+.map-page-logo {
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+.city-details {
+  margin-top: 2.4rem;
+  width: 100%;
+  box-shadow: 0 0 4.8rem rgba(0, 0, 0, 0.1);
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.city-name {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.city-date {
+  font-size: 1.4rem;
+}
+
+.city-details div p {
+  padding: 0 1.2rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 2.4rem;
+}
+
+.city-button {
+  padding: 1rem 4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: #f3e8d8;
+  color: #242721;
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}

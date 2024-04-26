@@ -1,0 +1,16 @@
+.map-page-nav {
+  margin-top: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-page-link:link,
+.map-page-link:visited {
+  padding: 4px 1.2rem;
+}
+
+.map-page-link:global(.active) {
+  background-color: #242721;
+  color: #f3e8d8;
+}

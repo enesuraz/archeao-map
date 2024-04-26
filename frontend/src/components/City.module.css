@@ -1,0 +1,39 @@
+.city {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 4.8rem rgba(0, 0, 0, 0.1);
+  padding: 1.2rem;
+  border-radius: 3px;
+}
+
+.city-name {
+  font-size: 1.6rem;
+}
+
+.city-date {
+  font-size: 1.4rem;
+}
+
+.city.city--active {
+  border: 2px solid #242721;
+}
+
+.city:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.btn--delete {
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  border: 2px solid #242721;
+  border-radius: 50%;
+  cursor: pointer;
+}
